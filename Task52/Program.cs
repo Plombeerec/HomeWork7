@@ -44,7 +44,7 @@ void Average(int[,] array)
         }
         result = (double)count / array.GetLength(0) ;
         
-        Console.WriteLine($"Average in {j+1} column is " + result);
+        Console.WriteLine($"Average in {j+1} column is " + Math.Round(result,2));
     }
     return ;
 }
